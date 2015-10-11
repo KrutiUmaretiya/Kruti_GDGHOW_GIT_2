@@ -1,0 +1,20 @@
+git init
+git config --list
+git add test.txt
+git rm --cached test.txt
+git commit -m "message"
+git diff
+git commit -am "message"
+git rm tempfile.txt
+git remote add origin https://github.com/KrutiUmaretiya/Kruti_GDGHOW_GIT_1.git
+git push -u origin master
+git clone <URL>
+git branch <branch_name>
+git log
+git checkout tester
+git checkout -b developer
+git branch
+git branch -v
+git branch --merged
+git branch --no -merged
+git merge <merging branch name>
